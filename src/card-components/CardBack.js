@@ -26,7 +26,7 @@ else {
         <span />
         {this.generateRatingElement()}
         <span />
-        <h5 className="genres">{this.props.geners.join(",")}</h5>
+        <h5 className="genres">{this.props.genres.join(",")}</h5>
       </div>
     )
   }
