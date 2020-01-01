@@ -36,10 +36,12 @@ export default class MovieCard extends Component {
         <CardFront poster={this.props.poster}/>
         <CardBack title={this.props.title}
         IMDBRating={this.props.IMDBRating}
-        geners={this.props.geners}/>
+        genres={this.props.geners}/>
       </div>
     )
   }
 }
 
-// Don't forget your default props!
+MovieCard.defaultProp={
+poster:"default",  title:"Unknown",IMDBRating:nul,genres:["No Genre(s) Found"]
+}
